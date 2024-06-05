@@ -45,3 +45,11 @@ modulos propios
 * las funciones que devulven promesas pueden no resolverlas y solo devolverlas hasta que la ultima la resulve 
 y eso funciona, xd pero funciona no la usario pero ojito
 
+
+** GIT 
+********************
+git rm -r --cached .
+git rm: Comando para eliminar archivos del índice y/o del sistema de archivos.
+-r: Aplicar recursivamente a todos los archivos y subdirectorios.
+--cached: Eliminar solo del índice de Git, no del sistema de archivos local.
+.: Indica la ruta actual, aplicando el comando a todos los archivos y directorios en el directorio actual.
