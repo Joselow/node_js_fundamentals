@@ -1,0 +1,47 @@
+module FS:
+write -- agrega contenido pero remplzando todo, crea el archivo si no esta.
+append -- agrega contenido a un archivo, si no existe lo crea xd
+read -- devuelve el contenido -- si no existe da error 
+unlik -- elimina el archivo -- si no existe da error 
+exist-- veirfica qu existe el archivo owo, devulve true o false 👌
+
+CONSOLE:
+console.log: recibe cualquier tipo y lo muestra en el consola.
+console.info: es equivalente a log pero es usado para informar.
+console.error: es equivalente a log pero es usado para errores.
+console.warn: es equivalente a log pero es usado para warning.
+console.table: muestra una tabla a partir de un objeto.
+console.count: inicia un contador autoincremental.
+console.countReset: reinicia el contador a 0.
+console.time: inicia un cronometro en ms.
+console.timeEnd: Finaliza el cronometro.
+console.group: permite agrupar errores mediante identación.
+console.groupEnd: finaliza la agrupación.
+console.clear: Limpia la consola.
+
+module ChildProcess:
+procesos:
+ - algo que se ejecuta y se termina
+
+-- generaran subProcesos 
+child_process -- exec y spawn, ambos sirve para ejecutar comandos 
+, spawn es mucho mas potente que el el exec
+
+Modulos c++ : se pueden ejecutar los modulos de c++ en node js
+
+module HTTP:
+crear, conectar servidores.
+
+process -> modulo global, permite escuchar muchisimos eventos.
+
+
+npm , node package manager -- manejador de paquetes de node
+** npm init -- para iniciar una archivo crucial para gestionar el proyecto.
+
+modulos propios
+- importar -- require('./pathFile')
+- exportar -- module.exports = { anyProp }
+
+* las funciones que devulven promesas pueden no resolverlas y solo devolverlas hasta que la ultima la resulve 
+y eso funciona, xd pero funciona no la usario pero ojito
+
